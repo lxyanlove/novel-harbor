@@ -1,0 +1,6 @@
+{
+  "name": "novel-harbor", "version": "1.0.0", "private": true, "type": "module",
+  "description": "书港：可扩展书源、质量检查与 TXT / EPUB 导出",
+  "scripts": {"dev": "wrangler dev", "preview": "node scripts/preview.mjs", "deploy": "wrangler deploy", "test": "node --test tests/*.test.mjs", "check": "node --check src/worker.js && node --check public/app.js && node --check public/engine.js && node --check public/quality.js && node --check public/export.js && node --check public/storage.js"},
+  "devDependencies": {"wrangler": "^4.0.0"}, "engines": {"node": ">=22"}, "packageManager": "pnpm@11.19.0"
+}

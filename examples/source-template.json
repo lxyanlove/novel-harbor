@@ -1,0 +1,10 @@
+{
+  "bookSourceName": "示例模板（请替换网址和选择器）",
+  "bookSourceUrl": "https://example.com",
+  "enabled": false,
+  "searchUrl": "/search?q={{key}}&page={{page}}",
+  "ruleSearch": {"bookList": ".book-list .book", "name": ".title@text", "author": ".author@text", "bookUrl": "a@href", "intro": ".intro@text"},
+  "ruleBookInfo": {"tocUrl": ".toc-link@href"},
+  "ruleToc": {"chapterList": ".chapters li", "chapterName": "a@text", "chapterUrl": "a@href", "nextTocUrl": "a.next@href"},
+  "ruleContent": {"content": "#content@text", "nextContentUrl": ""}
+}

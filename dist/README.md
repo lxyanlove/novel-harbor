@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "novel-harbor" generated at 2026-10-09T02:36:04.744Z.
